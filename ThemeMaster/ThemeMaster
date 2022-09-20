@@ -257,7 +257,7 @@ function InitLoader() {
   dialog --clear
   dialog --infobox "Initialisation... Please wait !" 5 50 >/dev/tty1
   #Checking internet access
-  $sudo_prefix ping -c 1 google.com &> /dev/null
+  $sudo_prefix ping -c 1 baidu.com &> /dev/null
   if [ $? -eq 0 ]; then
     InstallDependencies
   else
